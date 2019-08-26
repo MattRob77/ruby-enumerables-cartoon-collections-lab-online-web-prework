@@ -13,7 +13,8 @@ end
 
 
 def long_planeteer_calls(calls)
-  calls.any? 
+  calls.any? do |call| 
+    
   
 end
 
