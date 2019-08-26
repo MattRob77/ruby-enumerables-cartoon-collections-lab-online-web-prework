@@ -13,6 +13,7 @@ end
 
 
 def long_planeteer_calls(calls)
+  counter = 0 
   calls.any? do |call| 
     call.length > 4
   end 
